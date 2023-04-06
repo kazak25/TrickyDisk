@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
     }
 
     [UsedImplicitly]
-    public void Destroy() //вызывается по событие уничтожения врага.
+    public void Destroy()
     {
         Destroy(gameObject);
     }
